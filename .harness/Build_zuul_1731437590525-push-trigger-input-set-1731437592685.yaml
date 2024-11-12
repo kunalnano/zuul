@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_zuul_1731437590525-push-trigger-input-set
+  identifier: Build_zuul_1731437590525pushtriggerinputset
+  orgIdentifier: TPMLabs
+  projectIdentifier: testal
+  pipeline:
+    identifier: Build_zuul_1731437590525
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
